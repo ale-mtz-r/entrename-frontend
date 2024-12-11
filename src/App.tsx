@@ -18,6 +18,8 @@ const App = () => {
           <Route path="usuarios" element={<Usuarios />} />
           <Route path="rutinas" element={<Rutinas />} />
           {/* <Route path="*" element={<NoPage />} /> */}
+
+          
         </Route>
       </Routes>
     </BrowserRouter>
